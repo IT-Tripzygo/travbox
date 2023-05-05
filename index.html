@@ -22,7 +22,7 @@
         <div class="container flex-lg-row flex-nowrap align-items-center">
           <div class="navbar-brand w-100">
             <a href="/index.html">
-              <img src="./assets/img/travbox.png" srcset="./assets/img/travbox.png" style="height: 60px;" alt="" />
+              <img src="./assets/img/travbox.png" srcset="./assets/img/travbox.png" style="height: 75px;" alt="" />
             </a>
           </div>
           <div class="navbar-collapse offcanvas offcanvas-nav offcanvas-start">
@@ -35,11 +35,12 @@
                 <!-- <li class="nav-item dropdown dropdown-mega"> -->
                 <li class="nav-item">
 
-                  <!-- <a class="nav-link dropdown-toggle " href="#" data-bs-toggle="dropdown">Demos</a> -->
-                  <a class="nav-link d-lg-none" href="/about.html">About Us</a>
+                  <a class="nav-link" target="_blank" href="/about.html">About Us</a>
+                  <!-- <a class="nav-link" href="/about.html">About Us</a> -->
                  <a class="nav-link  d-lg-none" href="/cancellation_policy.html">Cancellation Policy</a>
                   <a class="nav-link  d-lg-none" href="#">Terms & Conditions</a>
                   <a class="nav-link  d-lg-none" href="/privacy_policy.html">Privacy Policy</a>
+               
                   <ul class="dropdown-menu mega-menu mega-menu-dark mega-menu-img">
                     <li class="mega-menu-content mega-menu-scroll">
                       <ul class="row row-cols-1 row-cols-lg-6 gx-0 gx-lg-4 gy-lg-2 list-unstyled">
@@ -255,7 +256,9 @@
                   </ul>
                   <!--/.dropdown-menu -->
                 </li>
-                <li class="nav-item dropdown">
+                <li class="nav-item">
+                  <a class="nav-link " target="_blank" href="https://partner.tripzygo.travel/sign-up" >Contact Us</a>
+                 
                   <!-- <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Pages</a> -->
                   <ul class="dropdown-menu">
                     <li class="dropdown dropdown-submenu dropend"><a class="dropdown-item dropdown-toggle" href="#" data-bs-toggle="dropdown">Services</a>
@@ -532,20 +535,22 @@
               </div>
               <!-- /.offcanvas-footer -->
             </div>
+            
             <!-- /.offcanvas-body -->
           </div>
+          
           <!-- /.navbar-collapse -->
           <div class="navbar-other w-100 d-flex ms-auto">
             <ul class="navbar-nav flex-row align-items-center ms-auto">
-              <li class="nav-item dropdown language-select text-uppercase">
-                <!-- <a class="nav-link dropdown-item dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">En</a> -->
-                <ul class="dropdown-menu">
-                  <li class="nav-item"><a class="dropdown-item" href="#">En</a></li>
-                  <li class="nav-item"><a class="dropdown-item" href="#">De</a></li>
-                  <li class="nav-item"><a class="dropdown-item" href="#">Es</a></li>
-                </ul>
+              <!-- <li class="nav-item">
+                <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#modal-signin">Sign In</a>
+              </li> -->
+              <li class="nav-item d-none d-md-block">
+                <a href="https://partner.tripzygo.travel/sign-up" class="btn btn-sm btn-primary rounded" >Log In</a>
               </li>
-              <!-- <li class="nav-item"><a class="nav-link" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-info"><i class="uil uil-info-circle"></i></a></li> -->
+              <li class="nav-item d-none d-md-block">
+                <a href="https://partner.tripzygo.travel/sign-up" class="btn btn-sm btn-primary rounded" >Register</a>
+              </li>
               <li class="nav-item d-lg-none">
                 <button class="hamburger offcanvas-nav-btn"><span></span></button>
               </li>
@@ -554,6 +559,7 @@
           </div>
           <!-- /.navbar-other -->
         </div>
+       
         <!-- /.container -->
       </nav>
       <!-- /.navbar -->
